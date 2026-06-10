@@ -26,8 +26,7 @@ h2 {
     margin-top: 100px;
 }
 #container {
-    width: 100vw;
-    background: #b71d22;
+    width: 100%;
     position: relative;
     margin: auto;
     text-align: center;
@@ -75,12 +74,16 @@ h2 {
 .AppTicket .AppTicket_hover:hover img {
     opacity: 1;
 }
+
+.right_fixedDecoration img,
+.left_fixedDecoration img {
+    width: 250px;
+}
 .right_fixedDecoration img {
     pointer-events: none;
     z-index: 1;
     float: right;
     margin: 130px 0 auto;
-    width: 350px;
     height: auto;
 }
 .left_fixedDecoration img {
@@ -88,7 +91,6 @@ h2 {
     z-index: 1;
     float: left;
     margin: 200px 0 auto;
-    width: 350px;
     height: auto;
 }
 .mainVisual img {
