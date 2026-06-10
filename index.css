@@ -274,10 +274,10 @@ h1 {
 }
 #footerText {
     width: 550px;
-    height: 100px;
     display: flex;
-    list-style-type: none;
-    padding: 0 550px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
 }
 #footerText li a:link,
 #footerText li a:visited {
